@@ -182,7 +182,7 @@ def pilih():
                         else:
 							if zedd == '6':
 								toket = open('login.txt', 'r').read()
-                                print '\x1b[1;91m[+] \x1b[1;92mYour token\x1b[1;91m :\x1b[1;97m ' + toket
+                            print '\x1b[1;91m[+] \x1b[1;92mYour token\x1b[1;91m :\x1b[1;97m ' + toket
                                 raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
                                 menu()
 							else:
