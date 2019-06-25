@@ -181,7 +181,6 @@ def pilih():
                             keluar()
                         else:
 							os.system('reset')
-                                print logo
 									toket = open('login.txt', 'r').read()
                                 print '\x1b[1;91m[+] \x1b[1;92mTokenmu \x1b[1;91m :\x1b[1;97m ' + toket
 									raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
