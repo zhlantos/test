@@ -180,17 +180,16 @@ def pilih():
                        
                             keluar()
                         else:
-							os.system('reset')
-									toket = open('login.txt', 'r').read()
-                                print '\x1b[1;91m[+] \x1b[1;92mTokenmu \x1b[1;91m :\x1b[1;97m ' + toket
-									raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
-									menu()
+							if zedd == '6':
+								os.system('nano login.txt')
+                       
+								keluar()
+							else:
+								if zedd == '0':
+									keluar()
 								else:
-									if zedd == '0':
-										keluar()
-									else:
-										print '\x1b[1;91m[\xe2\x9c\x96] \x1b[1;97m' + zedd + ' \x1b[1;91mTidak ada'
-										pilih()
+									print '\x1b[1;91m[\xe2\x9c\x96] \x1b[1;97m' + zedd + ' \x1b[1;91mTidak ada'
+									pilih()
 
 
 def informasi():
